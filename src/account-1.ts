@@ -22,7 +22,7 @@ const account = privateKeyToAccount(privateKey);
   const nonce = await client.getTransactionCount({
     address: account.address,
   })
-  console.log(nonce);
+  // console.log(nonce);
   
 })();
 
